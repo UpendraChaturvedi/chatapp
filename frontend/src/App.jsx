@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { connectWS } from "./ws";
+import { connectWS } from "./ws.js";
 
 export default function App() {
   const timer = useRef(null);
